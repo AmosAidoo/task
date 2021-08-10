@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     background: none;
     padding: 5px;
     padding-left: 20px;
-    padding-right: 80px;
+    padding-right: 20px;
 }
 
 .transparent-button:hover {
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .coaching-right {
-    background-color: #f1f1f1;
+    background-color: #e1e1e1;
     color: #024d0e;
 }
 
@@ -170,21 +170,53 @@ h1, h2, h3, h4, h5, h6 {
     color: #024d0e;
 }
 
+/* .number-container {
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: 5px solid green;
+} */
 
-.number-container::before {
+.number-bar {
+    position: relative; 
+    display: inline-block; 
+    width: 100%; 
+    height: 3px; 
+    background-color: green
+}
+
+/* .number-container::before {
     content: "";
     background-color: green;
-    width: 15%;
+    width: 200px;
     height: 2px;
     position: absolute;
-}
+} */
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* .connect-left {
+        height: 450px;
+    } */
+    .connect {
+        margin-bottom: 400px;
+    }
+    .connect-right {
+        height: 400px;
+    }
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .connect {
+        margin-bottom: 400px;
+    }
+    .connect-right {
+        height: 420px;
+    }
+
+    .faqs {
+        margin-top: 50px;
+    }
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
