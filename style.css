@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.connect {
+    height: 450px;
+}
+
+.connect-left {
+    background: rgb(0,36,2);
+    background: linear-gradient(90deg, rgba(0,36,2,1) 36%, rgba(42,186,47,1) 100%, rgba(66,121,9,1) 100%);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.text-heading {
+    color: #024d0e;
+    font-size: 3em;
+}
+
+.task-button {
+    text-decoration: none;
+    color: #ffffff;
+    background: rgb(13,81,163);
+    background: linear-gradient(90deg, rgba(13,81,163,1) 36%, rgba(42,186,69,1) 100%, rgba(66,121,9,1) 100%);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 80px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.task-button:hover {
+    color: #ffffff;
+}
+
+.transparent-button {
+    border: 2px solid #024d0e;
+    text-decoration: none;
+    color: #024d0e;
+    font-size: 1.6em;
+    background: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.transparent-button:hover {
+    background-color:#024d0e;
+    color: #ffffff;
+}
+
+.dash {
+    display: inline-block; 
+    width: 200px; height: 4px; 
+    background-color: #024d0e; 
+    margin-left: 20px;
+}
+
+.connect-left h1 {
+    font-size: 4em;
+}
+
+.help-support {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.coaching-left, .coaching-right {
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.coaching-left {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.coaching-right {
+    background-color: #f1f1f1;
+    color: #024d0e;
+}
+
+.faqs {
+    background-color: #d7f7df;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.faqs-content {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.faqs-content > h5 {
+    font-size: 1em;
+}
+
+.faqs-circle {
+    width: 15px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #d7f7df;
+}
+
+.faqs-circle-left {
+    float: left;
+    margin-left: -30px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.faqs-circle-right {
+    float: right;
+    margin-right: -30px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.contact-us {
+    background-color: #e6f7eb;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.contact-us input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #b1b1b1;
+    border-radius: 0px;
+    width: 50%;
+}
+
+.contact-us input:focus {
+    box-shadow: none;
+    background: none;
+}
+
+.contact-us textarea:focus {
+    box-shadow: none;
+    background: #024d0e;
+}
+
+.contact-us textarea {
+    width: 80%;
+    background-color: #024d0e;
+    color: #ffffff !important;
+}
+
+.contact-us textarea::placeholder {
+    color: #cccccc;
+}
+
+.footer {
+    background-color: #f1f1f1;
+}
+
+.number {
+    font-size: 4em;
+    color: #024d0e;
+}
+
+
+.number-container::before {
+    content: "";
+    background-color: green;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
