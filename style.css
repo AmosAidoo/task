@@ -165,16 +165,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f1f1f1;
 }
 
+.footer-left p {
+    font-size: 0.8em;
+}
+
 .number {
     font-size: 4em;
     color: #024d0e;
 }
 
-/* .number-container {
-    box-sizing: border-box;
-    padding: 10px;
-    border-top: 5px solid green;
-} */
 
 .number-bar {
     position: relative; 
@@ -184,22 +183,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: green
 }
 
-/* .number-container::before {
-    content: "";
-    background-color: green;
-    width: 200px;
-    height: 2px;
-    position: absolute;
-} */
-
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    /* .connect-left {
-        height: 450px;
-    } */
+    .contact-us input {
+        width: 100%;
+    }
+
     .connect {
         margin-bottom: 400px;
     }
+
     .connect-right {
         height: 400px;
     }
@@ -207,6 +200,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .contact-us input, .contact-us textarea {
+        width: 100%;
+    }
+
+    .footer-cols > div {
+        margin-bottom: 20px;
+    }
+
     .connect {
         margin-bottom: 400px;
     }
@@ -217,14 +218,36 @@ h1, h2, h3, h4, h5, h6 {
     .faqs {
         margin-top: 50px;
     }
+
+    .footer-left p {
+        font-size: 1em;
+    }
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    /* .contact-us input {
+        width: 70%;
+    } */
+
+    .faqs {
+        margin-top: 20px;
+    }
+
+    .coaching-left, .coaching-right {
+        padding: 70px;
+    }
+
+    .footer-left h4 {
+        font-size: 1.2em;
+    }
 }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+    .nls h4 {
+        font-size: 1.2em;
+    }
 }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
